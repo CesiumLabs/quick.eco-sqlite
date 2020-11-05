@@ -1,5 +1,5 @@
 const sqlite = require('better-sqlite3');
-const fs = require('fs/promises');
+const fs = require('fs').promises;
 
 /**
  * Quick.eco sqlite manager
